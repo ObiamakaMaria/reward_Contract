@@ -1,19 +1,34 @@
-##Rewards Smart Contract
-A Cairo-based smart contract on Starknet designed to handle a decentralized points reward system. It enables users to earn, redeem, and transfer points efficiently and securely.
 
-##Introduction
-This smart contract leverages Cairo on Starknet to implement a blockchain-powered rewards system. Each user can accumulate points, exchange them for rewards, or send them to others. The contract ensures accurate balance tracking for every user and emits events for key operations.
+# Rewards Smart Contract
 
-#Key Capabilities
-Point Allocation: Users can increase their reward balance.
+A Cairo-based smart contract deployed on Starknet, built to facilitate a decentralized rewards points system. It allows users to earn, redeem, and transfer points in a secure and efficient manner.
 
-Point Redemption: Points can be exchanged or used by the owner.
+---
 
-Point Transfer: Move points between accounts securely.
+## Introduction
 
-Balance Check: Query the point total of any address.
+This contract utilizes Cairo on the Starknet network to implement a decentralized, blockchain-backed rewards system. Each participant can accumulate points, redeem them for rewards, or transfer them to other users. The system ensures accurate tracking of balances and emits events for all major state changes.
 
-Event Emission: Key actions trigger events for monitoring.
+---
 
-Robust Validation: Includes safeguards for zero inputs and balance insufficiency.
+## Key Capabilities
 
+- **Point Allocation**  
+  Users can add reward points to their personal balance.
+
+- **Point Redemption**  
+  Users can redeem or spend their accumulated points.
+
+- **Point Transfer**  
+  Allows users to securely transfer reward points to another address.
+
+- **Balance Inquiry**  
+  Enables checking of any address’s point balance.
+
+- **Event Emission**  
+  Emits events for key operations such as adding or redeeming points, enabling better tracking and integration.
+
+- **Robust Validation**  
+  Implements checks against zero-value operations and insufficient balances for security and data integrity.
+
+---
